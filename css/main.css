@@ -1,0 +1,110 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'lifehackmedium' sans-serif;
+  font-family: 'gagalinregular' sans-serif;
+}
+
+.wrap {
+  background: url(../image/video-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  min-width: 1100px;
+  min-height: 651px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.header .nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.header .nav a {
+  text-decoration: none;
+}
+
+.header .menu {
+  margin-right: 10px;
+  color: #ffffff;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header .order {
+  border-radius: 5px;
+  border-style: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #e45028;
+  text-transform: uppercase;
+}
+
+.current {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.current .burger__back {
+  background: url(../image/drops.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 417px;
+  height: 424px;
+}
+
+.current .we-do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "gagalinregular";
+  color: #f9b43b;
+  text-transform: uppercase;
+  font-size: 65px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.current .we-do-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: "lifehackmedium";
+  color: #ffffff;
+  text-transform: lowercase;
+  font-size: 30px;
+}
+/*# sourceMappingURL=main.css.map */

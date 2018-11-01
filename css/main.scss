@@ -1,0 +1,101 @@
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'lifehackmedium' sans-serif;
+  font-family: 'gagalinregular' sans-serif;
+}
+
+.wrap {
+  background: url(../image/video-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  min-width: 1100px;
+  min-height: 651px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .logo {
+    display: inline-flex;
+  }
+
+  .nav {
+    display: inline-flex;
+    list-style: none;
+  
+    text-transform: uppercase;
+    font-weight: 300;
+    
+    & a {
+    text-decoration: none;
+    
+    // // &:first-child li{
+    // //   list-style: none;
+    // }
+   }
+  }
+
+  .menu {
+    margin-right: 10px;
+    color: #ffffff;
+    align-items: baseline;
+
+    // &:after {
+    //   content: ".";
+    // }
+  }
+
+  .order {
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #e45028;
+    text-transform: uppercase;
+  }
+
+}
+
+.current {
+  display: flex;
+  justify-content: center;
+align-items: center;
+
+  .burger__back {
+    background: url(../image/drops.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 417px;
+    height: 424px;
+    
+  }
+
+  .we-do {
+    display: flex;
+    font-family: "gagalinregular";
+    color: #f9b43b;
+    text-transform: uppercase;
+    font-size: 65px;
+    flex-direction: column;
+  }
+  .we-do-text {
+    display: inline-flex;
+    font-family: "lifehackmedium";
+    color: #ffffff;
+    text-transform: lowercase;
+    font-size: 30px;
+  }
+
+}
+
+
+
+
